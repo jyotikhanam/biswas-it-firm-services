@@ -162,38 +162,6 @@ const services = {
 	},
 
 
-	brandIdentity: {
-		title: "Brand Identity",
-
-		category: "BRAND IDENTITY",
-
-		visualTitle: "Brand System",
-
-		logo: "https://biswasitfirm.com/assets/services/brand-identity-logo.svg",
-
-		description:
-			"We create cohesive brand identity systems that make businesses recognizable, credible, and visually consistent across digital and physical touchpoints.",
-
-		features: [
-			"Logo & Visual Identity Design",
-			"Color Palette & Typography System",
-			"Brand Guidelines & Visual Direction",
-			"Business Card & Stationery Design",
-			"Social Media Brand Assets",
-			"Consistent Digital Brand System"
-		],
-
-		technologies: [
-			"Figma",
-			"Illustrator",
-			"Photoshop",
-			"Brand Guidelines",
-			"Vector Design",
-			"Visual Systems"
-		]
-	},
-
-
 	brandPromotion: {
 		title: "Brand Promotion",
 
@@ -451,7 +419,7 @@ if (
 
 
 		whatsappButton.href =
-			`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+			`https://whatsapp.com/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
 	}
 
